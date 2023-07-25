@@ -35,6 +35,7 @@ namespace WidgetSampleCS
             this.Suspending += OnSuspending;
         }
 
+
         protected override void OnActivated(IActivatedEventArgs args)
         {
             XboxGameBarWidgetActivatedEventArgs widgetArgs = null;
