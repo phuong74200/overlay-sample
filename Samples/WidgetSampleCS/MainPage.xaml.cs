@@ -30,6 +30,8 @@ namespace WidgetSampleCS
         private void MyButton_Click(object sender, RoutedEventArgs e)
         {
             myButton.Content = "Clicked";
+
         }
+
     }
 }

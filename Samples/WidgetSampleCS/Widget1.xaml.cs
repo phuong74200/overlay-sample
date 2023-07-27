@@ -30,5 +30,17 @@ namespace WidgetSampleCS
         {
             myButton.Content = "Clicked";
         }
+
+        private void myGrid_PointerEntered(object sender, Windows.UI.Xaml.Input.PointerRoutedEventArgs e)
+        {
+            // Set the opacity to the desired value on hover (e.g., 1.0 for full opacity)
+            myGrid.Opacity = 1.0;
+        }
+
+        private void myGrid_PointerExited(object sender, Windows.UI.Xaml.Input.PointerRoutedEventArgs e)
+        {
+            // Set the opacity back to the default value when the pointer exits
+            myGrid.Opacity = 0;
+        }
     }
 }
